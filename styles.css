@@ -1,0 +1,82 @@
+/* styling of the body background color and text color*/
+body {
+    color: rgb(173, 197, 153);
+    background-color: rgb(71, 71, 58);
+}
+
+/* styling of the list items */
+li {
+    list-style: none;
+    color: #fffcfc;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+}
+
+/* styling of the list items on hover */
+li:hover {
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.7);
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* styling of the menu bar on hover */
+.nav-bar {
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* styling of the list items in the menu bar */
+.nav-bar li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+}
+
+.nav-bar li a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+img {
+    width: auto;
+    height: 180px;
+    border-radius: 20px;
+    margin:  20px 20px 20px 20px;
+    display: flexbox;
+    border: 3px solid #d4af37;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5);
+}
+
+img:hover {
+    box-shadow: 0 0 25px rgba(212, 175, 55, 0.7);
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+h4, h1 {
+    text-align: center;
+    color: #c5b68d;
+    font-size: 30px;
+    max-width: 1000px;
+    margin: 0 auto 20px auto;
+}
+
+p, h4 {
+    text-align: center;
+    color: #b19f70;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
